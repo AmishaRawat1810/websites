@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  background-color: ghostwhite;
+  font-weight: 200;
+}
+
+h1 {
+  color: #0f656c;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+h2 {
+  color: #0f656c;
+  font-weight: 300;
+}
+
+p {
+  color: #ba3aa7;
+  font-weight: 100;
+  line-height: 1.4em;
+}
