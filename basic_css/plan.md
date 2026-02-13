@@ -41,3 +41,11 @@
   -> Narrow reading column
   -> Strong typographic contrast
   -> Balanced vertical rhythm
+
+
+Property,Effect
+border-collapse,Merges double borders into one.
+nth-child,Applies styles to specific patterns (like alternating rows).
+fixed,Locks column widths regardless of content length.
+sticky,Keeps headers visible during scrolling.
+padding,"Adds ""breathable"" space inside the cells."

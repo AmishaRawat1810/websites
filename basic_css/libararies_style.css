@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+}
+
+.main {
+  width: max-content;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+}
+
+.section {}
