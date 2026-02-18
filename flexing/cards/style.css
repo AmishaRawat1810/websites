@@ -1,0 +1,91 @@
+:root {
+  /* --midnight-chroma: linear-gradient(45deg,
+      hsl(185, 87%, 28%),
+      hsl(187, 61%, 64%),
+      hsl(198 55% 38% / 1)); */
+
+  --greenfields: linear-gradient(30deg,
+      hsl(162 73% 22% / 1),
+      hsl(131 57% 33% / 1),
+      hsl(95 80% 37% / 1));
+
+  --saturn: linear-gradient(30deg,
+      hsl(281 95% 30%),
+      hsl(337 58% 42% / 1),
+      hsl(303 78% 37% / 1));
+
+  --alien-eye: radial-gradient(circle closest-side,
+      hsl(53 100% 43%),
+      hsl(20 100% 50%) 30%,
+      hsl(337 58% 42%),
+      hsl(304 78% 37%));
+
+  --instagram: radial-gradient(circle at 0% 10%,
+      hsl(53 100% 43%),
+      hsl(20 100% 50%) 30%,
+      hsl(337 58% 42%),
+      hsl(304 78% 37%),
+      hsl(273, 85%, 31%));
+
+  --submerged-sea-pearl: radial-gradient(circle at 0% 10%,
+      hsl(167.02deg 100% 43%),
+      hsl(192 48% 26% / 1) 30%,
+      hsl(184 58% 42% / 1),
+      hsl(200 78% 37% / 1));
+
+  --deep-sea:
+    linear-gradient(hsl(175 100% 43% / 75%),
+      hsl(160 97% 31% / 48%),
+      hsl(184 58% 42% / 98%),
+      hsl(200 78% 37%)),
+    linear-gradient(45deg, hsl(-122 57% 30%), transparent);
+
+  --memories:
+    radial-gradient(at 20% 30%, hsl(320 80% 50% / 0.3), transparent 50%),
+    radial-gradient(at 80% 40%, hsl(180 100% 40% / 0.4), transparent 50%),
+    radial-gradient(at 40% 80%, hsl(150 70% 50% / 0.3), transparent 50%),
+    radial-gradient(at 90% 10%, hsl(210 100% 50% / 0.3), transparent 50%);
+
+  --checker: linear-gradient(45deg,
+      hsla(157, 100%, 43%, 0.7) 40%,
+      hsla(130, 100%, 50%, 0.4) 40%),
+    linear-gradient(135deg,
+      hsla(81, 92%, 45%, 0.4) 40%,
+      hsla(232, 100%, 90%, 0.9) 40%);
+
+  --aurora: linear-gradient(180deg,
+      hsl(175 100% 43%) 2%,
+      hsl(160 97% 31%) 20%,
+      hsl(184 58% 42%) 55%,
+      hsl(200 78% 37%) 70%);
+
+  --bloody-red: linear-gradient(45deg, black, brown);
+
+  --lady-bug: radial-gradient(50% 50% at center,
+      hsl(0, 87%, 49%) 20%,
+      transparent 10%);
+
+  --pencils:
+    linear-gradient(265deg,
+      black 0.4%,
+      hsl(38, 95%, 53%) 0% 8%,
+      black 8.4%,
+      hsl(29, 98%, 53%) 8% 16%,
+      black 16.4%,
+      hsl(6, 85%, 41%) 16% 24%,
+      black 24.4%,
+      hsl(6, 93%, 22%) 24% 32%,
+      black 32.4%,
+      hsl(109, 69%, 35%) 32% 40%,
+      black 40.4%,
+      hsl(109, 100%, 19%) 40% 48%,
+      black 48.4%,
+      hsl(191, 100%, 30%) 48% 56%,
+      black 56.4%,
+      hsl(0, 0%, 93%, 0.5) 56%);
+
+  --linear-lines: repeating-linear-gradient(-45deg,
+      hsla(0, 0%, 5%, 0.8),
+      hsl(0, 0%, 0%) 10px,
+      hsl(0, 0%, 100%) 20px);
+}
