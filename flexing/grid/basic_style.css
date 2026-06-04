@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  --bg: rgb(207, 232, 220);
+  --border: rgb(79, 185, 227);
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 12em 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "nav footer";
+}
+
+body>* {
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+}
+
+header {
+  font-size: 28px;
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}

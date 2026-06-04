@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+  /* display: flex;
+  justify-content: center; */
+}
+
+:root {
+  --primary-color: hsl(195, 100%, 30%);
+}
+
+.grid-container-2 {
+  gap: 1em;
+  display: grid;
+  grid-auto-rows: 200px;
+  grid-auto-columns: 200px;
+
+  grid-template-areas:
+    "box-1 box-2 box-2 box-3"
+    "box-1 box-4 box-5 box-5";
+}
+
+.box {
+  background-color: var(--primary-color);
+}
+
+.wrapper {
+  border-radius: 1em;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  max-height: max-content;
+}
+
+img {
+  width: 100%;
+  height: max-content;
+  object-fit: contain;
+  object-position: center;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.text-container {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 1.5em;
+  font-size: 1.1em;
+  color: white;
+  background: linear-gradient(to top, hsl(0, 0%, 0%, 0.85), hsl(0, 0%, 0%, 0));
+  z-index: 1;
+  margin: 0.5em;
+}
+
+.cards {
+  display: grid;
+  grid-template-areas:
+    "wrapper-1 wrapper-2 wrapper-3"
+    "wrapper-1 wrapper-4 wrapper-5"
+    "wrapper-6 wrapper-6 wrapper-6";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1em;
+  width: 100%;
+  margin: 15px;
+}
